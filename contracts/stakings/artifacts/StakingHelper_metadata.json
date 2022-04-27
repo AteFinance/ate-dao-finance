@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_staking",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Ate",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Ate",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "staking",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stakings/StakingHelper.sol": "StakingHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stakings/StakingHelper.sol": {
+			"keccak256": "0xe14cd79828ce579d4be0ae1cccdec14428122a0cf49a2e53b67e32194ca948c9",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://bfbd6095068e9d88779be1e2667090830eedafccc7813cb15e0cdb1564927480",
+				"dweb:/ipfs/Qmd1SwoznzdwxMzGppovqpgp2voyFJ2Wwsz6HLZP6ZLcth"
+			]
+		}
+	},
+	"version": 1
+}

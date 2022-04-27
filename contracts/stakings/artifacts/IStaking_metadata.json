@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"name": "stake",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stakings/StakingHelper2.sol": "IStaking"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stakings/StakingHelper2.sol": {
+			"keccak256": "0xc2db8ec2183c9bcb0310b240a1878c5888ef31923ab1114ea34b28ce4cd443d7",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://f01b92707573d7efd7e8b4ebc71b54a6a02cb325d21ae7a8262be312e5da96b1",
+				"dweb:/ipfs/QmTYg3rS1CXA9N6hFm7xTrZ2wPytvHE9SxfC6KSjRUqFiA"
+			]
+		}
+	},
+	"version": 1
+}

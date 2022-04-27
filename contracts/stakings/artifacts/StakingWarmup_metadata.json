@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_staking",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_sAte",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_staker",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sAte",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "staking",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stakings/StakingWarmup.sol": "StakingWarmup"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stakings/StakingWarmup.sol": {
+			"keccak256": "0x2b63547fe87076c9625ecba157d6f0d6565e293812bf189c04de4ffc2b21c503",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://7da6a4bf01defd8c81f74ec1cb1de2354a9f3a3c53b9d83666a7f07c34c7d2ce",
+				"dweb:/ipfs/QmYkcc8jpRG649fK3U9x5yZspKS3A9ZYkEGXHJP4wuBw32"
+			]
+		}
+	},
+	"version": 1
+}

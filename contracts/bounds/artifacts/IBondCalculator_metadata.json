@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_LP",
+						"type": "address"
+					}
+				],
+				"name": "markdown",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_LP",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "valuation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bounds/BondDepository.sol": "IBondCalculator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bounds/BondDepository.sol": {
+			"keccak256": "0x24dc41e1eca7c9fd08c218c51dea8c1714344ae50b1b133e0c1548c7efa055a6",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://1d93edad474c007e308908046fd87e7510dd715c12cd828d98445723a4bd72ac",
+				"dweb:/ipfs/QmaTFx6AQDZUz8pvTeLAN29qk6CLMrraxKaXhgv25vz3M6"
+			]
+		}
+	},
+	"version": 1
+}

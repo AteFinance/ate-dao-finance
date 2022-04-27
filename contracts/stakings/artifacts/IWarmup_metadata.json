@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "staker_",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stakings/Staking.sol": "IWarmup"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stakings/Staking.sol": {
+			"keccak256": "0x800ff4383055ae28ab648d51ad2709750d519c4ff69261bd6dde90560d202b0b",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://e1f5064e402527ec74198a82c2ca18e50232fba68719e9838ca52af5ae869f4a",
+				"dweb:/ipfs/QmW9MN2SmFwixH6b1yv9h5RsLq3Gxy6GyYRnSLBkaSRosP"
+			]
+		}
+	},
+	"version": 1
+}

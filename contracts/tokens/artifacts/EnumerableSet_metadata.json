@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tokens/SaxERC20.sol": "EnumerableSet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/tokens/SaxERC20.sol": {
+			"keccak256": "0xb5f7cb7976e00fb78751814fb6abcb02359e03e641fd2116968032beee3eba00",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://338be66a6e6184710dbb633e87b6abd02440f2632bca90ad0bb8aeda78074240",
+				"dweb:/ipfs/QmZtiVmZ4Dq2n8qrCvFSvfyGwfKVHKq9HFjpW6iRwvGX1c"
+			]
+		}
+	},
+	"version": 1
+}

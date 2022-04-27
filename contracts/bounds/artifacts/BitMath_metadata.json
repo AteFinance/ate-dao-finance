@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bounds/StandardBondingCalculator.sol": "BitMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bounds/StandardBondingCalculator.sol": {
+			"keccak256": "0x8587268f305e2a89e4287ece26eb33dd342e21bb7f50fd5d1bac8fd474fe8735",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://c63c7271410a3539fdf74f92ee8b46ef72432819cb2e5b978ebc2635a0750191",
+				"dweb:/ipfs/QmS9bH8SPqoHLPuLdvKufjEKp6JeqpDRwXxKeKtbwdCgW9"
+			]
+		}
+	},
+	"version": 1
+}
